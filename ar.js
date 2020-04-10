@@ -1,4 +1,4 @@
-l10n.translations.en = {
+l10n.translations.ar = {
   logout: 'تسجيل الخروج',
   error: {
     a: 'حدث خطأ ما ، يرجى',
@@ -152,13 +152,13 @@ l10n.translations.en = {
 
 // Pluralization rules taken from:
 // https://unicode.org/cldr/charts/34/supplemental/language_plural_rules.html
-l10n.pluralize.en = function (n) {
+l10n.pluralize.ar = function (n) {
   return n === 1 ? 'one' : 'other';
 };
 
 
-l10n.date.en = function(d) {
-  var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-                'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+l10n.date.ar = function(d) {
+  var months = ['يناير', 'فبراير', 'مارس', 'أبريل', 'مايو', 'يونيو',
+                'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر'];
   return "" + d.getDate() + " " + months[d.getMonth()] + " " + d.getFullYear();
 };
